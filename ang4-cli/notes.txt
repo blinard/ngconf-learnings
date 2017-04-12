@@ -1,0 +1,26 @@
+	
+Installing Angular Language Service in VSCode:
+	Extension Name: Angular Language Service
+	Extension Identifier: ng-template
+	Url: https://marketplace.visualstudio.com/items?itemName=Angular.ng-template
+	Shortcut: Ctrl+P 'ext install ng-template'
+	
+Install Angular CLI
+npm install -g @angular/cli
+(Note: You may need to install some peer dependencies manually also. Like rxjs)
+
+Angular CLI Documentation:
+	Main: https://github.com/angular/angular-cli/wiki
+	Stories: https://github.com/angular/angular-cli/wiki/stories
+	Config Schema: https://github.com/angular/angular-cli/wiki/angular-cli
+	
+
+Angular CLI Commands:
+
+ng help
+
+ng new [project-name] --routing --dry-run
+
+ng serve --open
+
+Tada! :)
