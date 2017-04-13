@@ -5,10 +5,13 @@ import { HttpModule } from '@angular/http';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { HeroListComponent } from './hero-list/hero-list.component';
+import { HeroDataService } from './hero-data.service';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    HeroListComponent
   ],
   imports: [
     BrowserModule,
@@ -16,7 +19,7 @@ import { AppComponent } from './app.component';
     HttpModule,
     AppRoutingModule
   ],
-  providers: [],
+  providers: [HeroDataService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
