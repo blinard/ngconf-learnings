@@ -5,13 +5,12 @@ import { HttpModule } from '@angular/http';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { HeroListComponent } from './hero-list/hero-list.component';
-import { HeroDataService } from './hero-data.service';
+import { EagerComponent } from './eager/eager.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    HeroListComponent
+    EagerComponent
   ],
   imports: [
     BrowserModule,
@@ -19,7 +18,7 @@ import { HeroDataService } from './hero-data.service';
     HttpModule,
     AppRoutingModule
   ],
-  providers: [HeroDataService],
+  providers: [],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

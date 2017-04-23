@@ -24,3 +24,9 @@ ng new [project-name] --routing --dry-run
 ng serve --open
 
 Tada! :)
+
+ng build
+
+ng build --target=production
+
+ng build --target=production --aot
