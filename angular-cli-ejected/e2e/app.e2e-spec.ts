@@ -1,10 +1,10 @@
-import { LazyLoadingExamplePage } from "./app.po";
+import { AngularCliEjectedPage } from "./app.po";
 
-describe("lazy-loading-example App", () => {
-  let page: LazyLoadingExamplePage;
+describe("angular-cli-ejected App", () => {
+  let page: AngularCliEjectedPage;
 
   beforeEach(() => {
-    page = new LazyLoadingExamplePage();
+    page = new AngularCliEjectedPage();
   });
 
   it("should display message saying app works", () => {

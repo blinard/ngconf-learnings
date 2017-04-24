@@ -3,22 +3,21 @@ import { NgModule } from "@angular/core";
 import { FormsModule } from "@angular/forms";
 import { HttpModule } from "@angular/http";
 
-import { AppRoutingModule } from "./app-routing.module";
 import { AppComponent } from "./app.component";
-import { EagerComponent } from "./eager/eager.component";
+import { ItemListComponent } from "./item-list/item-list.component";
+import { ItemDataService } from "./item-data.service";
 
 @NgModule({
   declarations: [
     AppComponent,
-    EagerComponent
+    ItemListComponent
   ],
   imports: [
     BrowserModule,
     FormsModule,
-    HttpModule,
-    AppRoutingModule
+    HttpModule
   ],
-  providers: [],
+  providers: [ItemDataService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
