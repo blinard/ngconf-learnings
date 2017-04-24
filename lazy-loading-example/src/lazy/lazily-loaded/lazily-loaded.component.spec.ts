@@ -1,8 +1,8 @@
-import { async, ComponentFixture, TestBed } from '@angular/core/testing';
+import { async, ComponentFixture, TestBed } from "@angular/core/testing";
 
-import { LazilyLoadedComponent } from './lazily-loaded.component';
+import { LazilyLoadedComponent } from "./lazily-loaded.component";
 
-describe('LazilyLoadedComponent', () => {
+describe("LazilyLoadedComponent", () => {
   let component: LazilyLoadedComponent;
   let fixture: ComponentFixture<LazilyLoadedComponent>;
 
@@ -19,7 +19,7 @@ describe('LazilyLoadedComponent', () => {
     fixture.detectChanges();
   });
 
-  it('should create', () => {
+  it("should create", () => {
     expect(component).toBeTruthy();
   });
 });

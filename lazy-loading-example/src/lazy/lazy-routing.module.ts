@@ -1,9 +1,11 @@
-import { NgModule } from '@angular/core';
-import { Routes, RouterModule } from '@angular/router';
-import { LazilyLoadedComponent } from './lazily-loaded/lazily-loaded.component';
+import { NgModule } from "@angular/core";
+import { Routes, RouterModule } from "@angular/router";
+import { LazilyLoadedComponent } from "./lazily-loaded/lazily-loaded.component";
+import { AnotherLazyComponent } from "./another-lazy/another-lazy.component";
 
 const routes: Routes = [
-  { path: '', component: LazilyLoadedComponent }
+  { path: "", component: LazilyLoadedComponent },
+  { path: "another", component: AnotherLazyComponent }
 ];
 
 @NgModule({

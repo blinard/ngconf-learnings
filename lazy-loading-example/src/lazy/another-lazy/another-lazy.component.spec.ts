@@ -1,20 +1,20 @@
 import { async, ComponentFixture, TestBed } from "@angular/core/testing";
 
-import { EagerComponent } from "./eager.component";
+import { AnotherLazyComponent } from "./another-lazy.component";
 
-describe("EagerComponent", () => {
-  let component: EagerComponent;
-  let fixture: ComponentFixture<EagerComponent>;
+describe("AnotherLazyComponent", () => {
+  let component: AnotherLazyComponent;
+  let fixture: ComponentFixture<AnotherLazyComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ EagerComponent ]
+      declarations: [ AnotherLazyComponent ]
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(EagerComponent);
+    fixture = TestBed.createComponent(AnotherLazyComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
