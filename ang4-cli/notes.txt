@@ -27,6 +27,12 @@ Tada! :)
 
 ng build
 
-ng build --target=production
-
 ng build --target=production --aot
+
+ng generate component item-list
+
+ng generate class item
+
+ng generate service item-data
+
+
