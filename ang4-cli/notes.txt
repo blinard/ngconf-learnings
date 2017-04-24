@@ -24,16 +24,18 @@ ng serve --open
 
 Tada! :)
 
-ng build
-
-ng build --target=production --aot
-
 ng generate component item-list
 
 ng generate class item
 
 ng generate service item-data
 
-
 See: .angular-cli.json
+
+ng eject
+
+
+ng build
+
+ng build --aot
 
