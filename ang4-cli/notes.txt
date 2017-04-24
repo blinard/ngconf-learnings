@@ -13,7 +13,6 @@ Angular CLI Documentation:
 	Main: https://github.com/angular/angular-cli/wiki
 	Stories: https://github.com/angular/angular-cli/wiki/stories
 	Config Schema: https://github.com/angular/angular-cli/wiki/angular-cli
-	
 
 Angular CLI Commands:
 
@@ -35,4 +34,6 @@ ng generate class item
 
 ng generate service item-data
 
+
+See: .angular-cli.json
 

@@ -11,3 +11,9 @@ const routes: Routes = [
   exports: [RouterModule]
 })
 export class LazyRoutingModule { }
+
+/*
+  Important Note:
+
+  1. The lazy-loaded routing module must use RouterModule.forChild(...) to publish its routes (not .forRoot).
+*/
