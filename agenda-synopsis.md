@@ -1,4 +1,4 @@
-# Brown Bag Agenda
+# Angular 4 & The Angular CLI Brown Bag Agenda
 
 * Angular Language Service
 * Angular CLI
